@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3248417420895932671}
   - component: {fileID: 8207708956411933240}
   m_Layer: 0
-  m_Name: KnightPrefab
+  m_Name: ArcherPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -84,7 +84,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0.8207547, g: 0.49330246, b: 0.015485926, a: 1}
+  m_Color: {r: 0.63173074, g: 0.8207547, b: 0.12001601, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -106,14 +106,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96b28115db537dd4cae3d39b0c5f310e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BoardUnit
-  unitName: Knight
-  hp: 4
-  atk: 2
-  moveRange: 2
-  attackRange: 1
+  unitName: Archer
+  hp: 3
+  atk: 1
+  moveRange: 1
+  attackRange: 3
   skillCost: 2
   playerDamageOnDeath: 2
-  skillName: CrossAttack
+  skillName: Snipe
   currentTile: {fileID: 0}
   statusText: {fileID: 1237736225063981951}
 --- !u!1 &3906573898593626322
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Knight\n2/6
+  m_text: Archer 1/2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
